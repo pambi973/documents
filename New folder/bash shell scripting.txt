@@ -1,0 +1,44 @@
+Sh is original shell
+bash bourne again shell
+it was reinvented of shell
+
+.sh is not necessary to excute shell
+
+comments are not excuted by the script
+two type
+single line comment
+muluti line comment
+
+1 #
+2 << myline
+
+>>
+
+Variables:
+ 
+read command is used to take input from terminal
+
+
+--------------------------------------
+install packages using shell script
+
+#!/bin/bash
+#This simple installation script for any package 
+echo "please enter your name"
+read "name"
+echo "hello $name"
+echo "what is your linux"
+read "linux"
+echo your linux is "$linux"
+echo "which package you want to install"
+read "pname"
+echo "your $pname is installing"
+yum install $pname -y
+echo "your $pname is installed"
+
+
+
+-------------------------------------------Script2
+#!/bin/bash
+
+       

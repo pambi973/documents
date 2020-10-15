@@ -1,0 +1,22 @@
+s3-----
+
+hierarchy
+
+Account
+Bucket--100
+object --5tb max
+put operation --5gb
+
+bucket name should be globally unique
+bucket belongs to specific region
+
+
+
+
+
+
+
+
+
+
+ 
